@@ -2,7 +2,7 @@
 
 p "Enter a name, age, and occupation separated by spaces:"
 
-person = gets.chop.split
+person = gets.chomp.split
 
 person = {:name => person[0], :age => person[1].to_i, :occupation => person[2]}
 
